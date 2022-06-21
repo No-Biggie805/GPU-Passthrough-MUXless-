@@ -4,12 +4,15 @@ My progress and annotations on my clevo notebook
 Adding VFIO kernel params to GPU, SOURCE:https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF
 
 -sudo nano /etc/modprobe.d/vfio.conf
+
   options vfio-pci ids=10de:13d8
 
-Load vfio early on mkinitcpio and ensure modconf is on hooks
+Load vfio early on mkinitcpio modules and ensure modconf is on hooks:
 
 -sudo nano /etc/mkinitcpio.conf
+
   MODULES=(... vfio_pci vfio vfio_iommu_type1 vfio_virqfd ...)
+  
   HOOKS=(... modconf ...)
 
 Update initramfs:
