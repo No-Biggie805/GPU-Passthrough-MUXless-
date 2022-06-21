@@ -18,6 +18,7 @@ Update initramfs:
   Reboot
   
  Download ssd1.dat file, for fake battery: https://lantian.pub/usr/uploads/202007/ssdt1.dat
+ 
                                            https://git.karaolidis.com/Nikas36/legion-7-vfio/-/blob/master/resources/SSDT1.dat
                                            
 
