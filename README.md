@@ -24,4 +24,5 @@ Update initramfs:
                                            https://git.karaolidis.com/Nikas36/legion-7-vfio/-/blob/master/resources/SSDT1.dat
                                            
 
-Now we edit xml after having windows 10 instaled.
+Now we edit xml after having windows 10 instaled, add gpu like my configs and other virtIO drivers for respective devices.
+
