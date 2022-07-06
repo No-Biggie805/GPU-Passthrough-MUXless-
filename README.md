@@ -23,6 +23,7 @@ Update initramfs:
  Download ssd1.dat file, for fake battery: https://lantian.pub/usr/uploads/202007/ssdt1.dat  
                                            https://git.karaolidis.com/Nikas36/legion-7-vfio/-/blob/master/resources/SSDT1.dat
                                            
+Add file permissions for the user(chown).                                           
 
 Now we edit xml after having windows 10 instaled, add gpu like my configs and other virtIO drivers for respective devices.
 
